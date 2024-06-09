@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tempus Luxe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <img class="bg" src="imagenes/imagendefondov.png" alt="">
+        <div class="menu container">
+        <a href="#" class="logo">Tempus Luxe</a><br><br>
+        <input type="checkbox" id="menu">
+        <label for="menu">
+            <img src="imagenes2/images/menu.png" alt="menu">
+        </label>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#"><strong> Inicio</strong></a></li>
+                <li><a href="#"><strong>Servivos</strong></a></li>
+                <li><a href="#"><strong>Productos</strong></a></li>
+                <li><a href="#"><strong>Contacto</strong></a></li>
+            </ul>
+        </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="imagenes2/images/car.svg" id="img-carrito" alt="Carrito">
+                        <div id="carrito" style="display: none;">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th> Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-3">Vaciar el carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>    
+        </div>
+        <div class="header-content container">
+            <div class="header-txt">
+                <h1><span>Bienvenido</span></h1>
+                <p>
+                    Aquí encontraras los mejores relojes a un excelente precio                
+                </p>
+                <a href="#" class="btn-1">Informacion</a>
+
+            </div>
+            <div class="header-img">
+                
+            </div>
+        </div>
+
+    </header>
+
+    <section class="relojes container">
+        <h2>Descuentos</h2>
+        <p>
+            Valido desde el 2 al 30 de Junio
+        </p>
+        <div class="relojes-content">
+            <div class="relojes-1">
+                <img src="imagenes/Amazfit.png" alt="">
+                <h3>Reloj <em>AMAZFIT</em></h3>
+                <p class="precio">79,99</p>
+            </div><br><br>
+            <div class="relojes-1">
+                <img src="imagenes/Fitbit.png" alt="">
+                <h3>Reloj <em>FITBIT</em></h3>
+                <p class="precio">59,99</p>
+            </div><br><br>
+            <div class="relojes-1">
+                <img src="imagenes/Lemfo.png"  alt="">
+                <h3>Reloj <em>LEMFO</em></h3>
+                <p class="precio">75,59</p>
+            </div><br><br>
+            <div class="relojes-1">
+                <img src="imagenes/Ticwatch.png"  alt="">
+                <h3>Reloj <em>TickWatch</em></h3>
+                <p class="precio">67,39</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="info">
+        <img class="fondo" src="imagenes/imagendefondo.png" alt="Imagen de fondo">
+        <div class="info-content container">
+            <div class="info-img">
+                <img src="imagenes/S A X.png" class="circular" alt="marcas">
+            </div>
+            <div class="info-txt">
+                <h2>Los mejores productos de las mejores marcas</h2>
+                <p> Puedes encontrar relojes de marcas como Apple, Samsung y Xiaomi
+                    </p>
+                <a href="#" class="btn-1">Mas Información</a>
+            </div>
+        </div>
+    
+    </section>
+
+    <main class="products container">
+        <h2>Productos</h2>
+        <div class="box-container" id="lista-1">
+            <div class="box">
+                <img src="imagenes/Apple.png"  alt="Apple Watch SE">
+                <div class="products-txt">
+                    <h3>Apple Watch SE(2da Gen)</h3><br>
+                    <p>GPS, Caja de aluminio en plata de 40mm y correa deportiva Azul tempestad
+                        con monitor de entreno y sueño, Pantalla Retina</p><br>
+                        <p class="precio">329,99</p><br>
+                        <a href="#" class="agregar-carrito btn-3" data-id="1">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="imagenes/Samsung.png" alt="Galaxy Watch 6">
+                <div class="products-txt">
+                    <h3>Samsung Galaxy Watch 6</h3><br>
+                    <p>Bluetooth, 4mm + correa de recambio - Smartwatch, control de seguimiento Deportivo</p><br>
+                        <p class="precio">309,99</p><br>
+                        <a href="#" class="agregar-carrito btn-3" data-id="2">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="imagenes/Huawei.png"  alt="Huawei Watch Fit 2">
+                <div class="products-txt">
+                    <h3>HUAWEI Watch Fit 2 </h3><br>
+                    <p>GPS, Llamadas Bluetooth, Gestion de Vida Saludable, Bateria de Larga Duración,
+                    Animaciones de  Entrenamiento Rápido, Monitorización SpO2.</p><br>
+                        <p class="precio">129,99</p><br>
+                        <a href="#" class="agregar-carrito btn-3" data-id="3">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="imagenes/Redmi Watch 4.png"  alt="Redmi Watch 4">
+                <div class="products-txt">
+                    <h3>Redmi Watch 4</h3><br>
+                    <p>Pantalla AMOLED, LPTS de "1,97", Monitor de Frecuencia Cardiaca, 150+ Modos 
+                        deportivos, hasta 20 Días de Autonomía.
+                    </p><br>
+                        <p class="precio">100</p><br>
+                        <a href="#" class="agregar-carrito btn-3" data-id="4">Agregar al carrito</a>
+                </div>
+            </div>
+        
+
+            <div class="box" style="display: none;">
+                <img src="imagenes/Huawei2.png" alt="Huawei Band 8">
+                <div class="products-txt">
+                    <h3>Huawei Band 8</h3><br>
+                    <p>Pantalla AMOLED (1.480 pulgadas), Sensor para Monitoreo Cardíaco, Medición de 
+                        Oxigeno de Sangre, seguimiento de Sueño y Estres, 100 Modos de Seguimiento Deportivo
+                    </p><br>
+                        <p class="precio">69,99</p><br>
+                        <a href="#" class="agregar-carrito btn-3" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box" style="display: none;">
+                <img src="imagenes/Samsung2.png" alt="Galaxy Fit 3">
+                <div class="products-txt">
+                    <h3>Galaxy Fit 3</h3><br>
+                    <p>Pantalla AMOLED (256x402), +Modos Deportivos, Funciones de Seguimiento de Sueño, 
+                        Estres y Ritmo Cardiaco con Pulsera Deportiva </p><br>
+                        <p class="precio">99,99</p><br>
+                        <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box" style="display: none;">
+                <img src="imagenes/Xiaomi.png" alt="Xiaomi Watch S1 Active">
+                <div class="products-txt">
+                    <h3>Xiaomi Watch S1 Active</h3><br>
+                    <p>Pantalla AMOLED (466x466), Resistencia al Agua hasta 5 ATM, Bluetooth y Wifi, 
+                        Bateria de 47mAh (12 dias con uso normal)</p><br>
+                        <p class="precio">199,99</p><br>
+                        <a href="#" class="agregar-carrito btn-3" data-id="7">Agregar al carrito</a>
+
+                </div>
+            </div>
+
+            <div class="box" style="display: none;">
+                <img src="imagenes/Apple2.png" alt="">
+                <div class="products-txt">
+                    <h3>Apple Watch Ultra 2</h3><br>
+                    <p>Caja de Titanio de 49mm, Pantalla de Retina, Gesto de doble toque, Siri en el 
+                        dispositivo, Busqueda de presición para el iPhone</p><br>
+                        <p class="precio">799,99</p><br>
+                        <a href="#" class="agregar-carrito btn-3" data-id="8">Agregar al carrito</a>
+                </div>
+            </div>
+        </div>
+        <div class="btn-2" id="load-more">
+            Cargar más
+        </div>       
+        
+
+    </main>
+
+    <section class="app container">
+        <div class="app-txt">
+            <h2>Descarga nuestra app y descubre ofertas</h2>
+            <p>
+                Descubre ofertas exclusivas y recibe notificaciones sobre nuestros productos directamente en tu móvil.
+            </p>
+            <div class="descarga">
+                <img src="imagenes2/images/store1.png" alt="Tienda 1">
+                <img src="imagenes2/images/store2.png" alt="Tienda 2">
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© Tempus Luxe. <br>
+                Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
