@@ -45,7 +45,7 @@ body {
 .logo {
     font-size: 24px;
     font-weight: bold;
-    color: rgb(87, 23, 23);
+    color: rgb(131, 12, 12);
     text-decoration: none;
 }
 
@@ -163,17 +163,17 @@ label[for="menu"] {
     border-radius: 50%;
 }
 
-.breakfast {
+.relojes {
     padding: 50px 0;
     text-align: center;
 }
 
-.breakfast h2 {
-    font-size: 36px;
+.relojes h2 {
+    font-size: 40px;
     margin-bottom: 10px;
 }
 
-.breakfast p {
+.relojes p {
     font-size: 18px;
     margin-bottom: 30px;
 }
@@ -184,16 +184,24 @@ label[for="menu"] {
     flex-wrap: wrap;
 }
 
-
-.relojes-1 img {
-    width: 400;
-    height: 400px;
-    object-fit: cover;
-    border-radius: 8px;
-    margin-bottom: 10px;
+.relojes-1 {
+    width: 40%;
+    background: white;
+    padding: 40px;
+    margin-bottom: 20px;
+    border-radius: 40px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
 }
 
-.breakfast-item h3 {
+.relojes-1 img {
+    width: 200;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 9px;
+}
+
+.relojes-item h3 {
     font-size: 22px;
     margin-bottom: 10px;
 }
@@ -346,11 +354,13 @@ label[for="menu"] {
 .app-txt h2 {
     font-size: 36px;
     margin-bottom: 20px;
+
 }
 
 .app-txt p {
     font-size: 18px;
     margin-bottom: 20px;
+
 }
 
 .descarga img {
@@ -359,15 +369,6 @@ label[for="menu"] {
     cursor: pointer;
 }
 
-.app-img {
-    width: 45%;
-}
-
-.app-img img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
 
 .footer {
     background: #c4a9a9;
